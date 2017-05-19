@@ -37,7 +37,7 @@ if (!window.requestAnimationFrame) { // http://msdn.microsoft.com/ru-ru/library/
     }
 }
 
-var KEY = {  ESC: 45, SPACE: 53, LEFT: 52, UP: 50, RIGHT: 54, DOWN: 56 },
+var KEY = {  ESC: 48, SPACE: 53, LEFT: 52, UP: 50, RIGHT: 54, DOWN: 56 },
 DIR = { UP: 0, RIGHT: 1, DOWN: 2, LEFT: 3, MIN: 0, MAX: 3 },
 canvas = get('canvas'),
 ctx = canvas.getContext('2d'),
